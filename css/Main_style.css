@@ -1,0 +1,137 @@
+html
+{
+    background-color: #1a73a8;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.top
+{
+    margin: 0;
+    padding-left: 0;
+    background: white;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: right;
+    box-shadow: 0 4px 16px rgb(32, 32, 32);
+}
+
+.top_ul
+{
+    margin-right: 20px;
+}
+
+.top_li 
+{
+   display: inline-block;
+   height: 30px;
+   line-height: 30px;
+   padding: 0 20px;
+}
+
+.top_a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#login
+{
+    color: #555555;
+}
+
+.top_li a
+{
+    color: #1a73a8;
+}
+
+#exit :hover
+{
+    color: rgb(180, 0, 0);
+}
+
+.main
+{
+    position: relative;
+    margin: 25px 50px 0 50px;
+}
+
+.left
+{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    box-shadow: 0 4px 16px rgb(32, 32, 32);
+    text-align: center;
+}
+
+table
+{
+    font-size: 14pt;
+    text-align: center;
+    border-spacing: 0;
+    box-shadow: 0 2px 8px rgb(32, 32, 32);
+    
+}
+
+th
+{
+    font-size: 16pt;
+    background: #1a74a8;
+    color: white;
+    text-shadow: 0 2px 2px #000000;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+}
+
+td
+{
+    background: rgb(80, 161, 211);
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.center
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    background-color: white;
+    text-align: right;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    box-shadow: 0 4px 16px rgb(32, 32, 32);
+}
+
+.right
+{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    box-shadow: 0 4px 16px rgb(32, 32, 32);
+    text-align: center;
+}
+
+.result
+{
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bold;
+    width: 100%;
+}
+
+canvas
+{
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid black;
+}

@@ -1,0 +1,94 @@
+html
+{
+    background-color: #1a73a8;
+    font-family: sans-serif;
+    
+    overflow: hidden;
+}
+
+.authorization_body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.authorization 
+{
+    width: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgb(32, 32, 32);
+    background-color: white;
+}
+
+.authorization_title
+{ 
+    text-align: center;
+    margin: 0 0 32px 0; 
+    font-weight: normal;
+    cursor: default;
+}
+
+button
+{
+    padding: 10px;
+    border: unset;
+    color :#fff;
+    background-color: #1a73a8;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover 
+{
+    filter: brightness(90%);
+}
+
+.authorization_div 
+{
+    position: relative; 
+    margin-bottom: 32px;
+}
+
+.authorization_input 
+{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.authorization_input:focus 
+{
+    border-bottom: 1px solid #1a73a8;
+}
+
+.authorization_regist
+{
+    text-align: center;
+    font-size: 11pt;
+    color: black;
+}
+
+.authorization_password
+{
+    margin-top: 10px;
+    font-size: 11pt;
+    color: #555555;
+}
+
+.authorization_msg
+{
+    border: 2px solid #1a73a8;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
